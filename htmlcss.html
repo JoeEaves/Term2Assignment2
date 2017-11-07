@@ -1,0 +1,83 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <link rel="icon" href="assets/icon.png">
+      <title>HTML & CSS.</title>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--IMport myStylesheet.css-->
+      <link href="css/myStylesheet.css" type="text/css" rel="stylesheet"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+    <header>
+   <nav>
+    <div class="nav-wrapper container">
+      <a href="#" class="brand-logo">Things you need to know about HTML.</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="htmlcss.html">HTML & CSS</a></li>
+        <li><a id="unique-identifier" href="boxmodels.html">Box Models CSS</a></li>
+        <li><a href="java.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+    <!--import header photo-->
+    <img class="responsive-img" src="assets/header2.jpg" max-width="100%" height="auto"/>
+    </header>
+    <main>
+  <div class="col s12 m7">
+    <h2 class="header">How HTML access CSS.</h2>
+    <div class="card horizontal">
+      <div class="card-stacked">
+        <div class="card-content">
+          
+          <p>HTML and CSS are the two main part that make up a website. HTML makes the base website, it's like the foundation of a house and then CSS is the part that makes it look good so like carpet or the paint on the walls. Here are three ways they link.</p>
+          
+          <br>
+          
+          <p>Inline is the easiest one to use if you are making a single page website. Inline is adding a style attribute to one element instead of changing the whole look of the page. Inline will have to be implemented to each element instead of controlling all elements from one CSS file
+          </p>
+          
+          <br>
+          
+          <p>
+          Internal CSS is when the style attribute is added into the head element instead of being in the same line as the header or paragraph that you have made. Every Time you want to add a new style to a part of code you will need to add a new style instead of putting it in a new head element.
+          </p>
+            
+          <br>
+            
+          <p>
+             External CSS is when you create a new file in a folder (make sure you know where it is) you can call the file mystyle.css but make sure it is a .css file. All you have to do then is create all the lines of code for designs. 
+          </p>
+            
+        </div>
+      </div>
+    </div>
+  </div>
+    </main>
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="blue-text">Contact.</h5>
+                    <p class="grey-text text-lighten-4">You can contact me for any questions on my email: e1292719@student.southstaffs.ac.uk</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="blue-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#" href="#unique-identifier">Go to top.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </footer>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
